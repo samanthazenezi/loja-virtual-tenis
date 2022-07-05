@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+}
+body{
+    background-color: #E5E5E5;
+}
+/*NAVEGAÇÃO*/
+.barranav {
+    margin-block: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.listanav {
+    list-style: none;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    color: black;
+    font-size: 1.2rem;
+    line-height: 100%;
+}
+.listanav li:hover {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(85, 84, 84);
+    color: rgb(85, 84, 84);
+    filter: brightness(1.5);
+}
+.divinputnav{
+    display: flex;
+    align-items: center;
+}
+.inputnav {
+    border: none;
+    background-color: #FFFFFF;
+    width: 8rem;
+    height: 2rem;
+}
+.inputnav::placeholder {
+    color: #9C9696;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 100%;
+}
+.lupanav {
+    border: none;
+    background-color: #FFFFFF;
+    width: 2.5rem;
+    height: 2rem;
+}
+/*MAIN*/
+.corpo {
+    margin-inline: 6rem;
+    display: grid;
+    grid-template-columns: 40% 60%;  
+    text-align: left;
+}
+.corpotext {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.text1 {
+    color: black;
+    line-height: 100%;
+    font-size: 6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.text2 {
+    color: #9C9696;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 100%;
+}
+.text3 {
+    color: black;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 100%;
+}
+.botao {
+    width: 15rem;
+    height: 5rem;
+    background-color: #FF0000;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 100%;
+    cursor: pointer;
+}
+.corpoimagem {
+    position: relative;
+    right: -0.8rem;
+    top: -8rem;
+    z-index: -1;
+    background-color: #C4C4C4;
+    width: 55.9rem;
+    height: 65rem;
+    
+}
+.corpoimagemcentral {
+    margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+}
+.corpoimagensrodape {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.img2 {
+    border-bottom: 3px solid red;
+}
+/*FOOTER*/
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15rem;
+}
+.listafooter {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.listafooter li:hover {
+    cursor: pointer;
+    color: rgb(85, 84, 84);
+    filter: brightness(1.5);
+}
+.videofooter {
+    width: 16rem;
+    height: 10rem;
+}
+.textfooter {
+    background-color: black;
+    width: 25rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+.textfooter p {
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 100%;
+}
